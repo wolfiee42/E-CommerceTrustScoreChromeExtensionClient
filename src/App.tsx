@@ -77,7 +77,7 @@ function App() {
       setFetchingWebsite(true); // Add this line
       try {
         const result = await axios.get(
-          `http://localhost:5003/api/v1/website/check?name=${currentUrl}`
+          `http://localhost:8080/api/v1/website/check?name=${currentUrl}`
         );
         setWebsiteInfo(result?.data?.data);
       } catch (error) {
@@ -108,7 +108,7 @@ function App() {
         reviewMessage,
       };
       const result = await axios.post(
-        "http://localhost:5003/api/v1/website/review",
+        "http://localhost:8080/api/v1/website/review",
         reviewPayload
       );
 

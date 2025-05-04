@@ -72,7 +72,7 @@ const ReviewSection = ({
   useEffect(() => {
     const getData = async () => {
       const result = await axios.get(
-        `http://localhost:5003/api/v1/website/ai-generated-feedback/${id}`
+        `http://localhost:8080/api/v1/website/ai-generated-feedback/${id}`
       );
       const { ProductQuality, CustomerServices, PlatformExperience } =
         result.data.data;
