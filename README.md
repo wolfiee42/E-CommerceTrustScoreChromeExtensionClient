@@ -37,7 +37,7 @@ This repository contains the client-side code for the E-Commerce Trust Score Chr
     ```
     pnpm dev
     ```
-4.  Open the application in your browser at `http://localhost:3000`.
+4.  Open the application in your browser at `http://localhost:5173`.
 
 ## Scripts
 - `pnpm dev`: Start the development server.
@@ -58,5 +58,5 @@ Contributions are welcome! Please follow these steps:
 - Open a pull request.
 
 ## Contact
-For any questions or feedback, please contact [your-email@example.com].
+For any questions or feedback, please contact [saifalislam2022@gmail.com].
 
