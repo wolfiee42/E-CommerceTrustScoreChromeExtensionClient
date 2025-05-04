@@ -11,7 +11,8 @@ This repository contains the client-side code for the E-Commerce Trust Score Chr
 
 ## Project Structure
 
-. ├── public/ │ ├── icon.png │ ├── manifest.json │ └── vite.svg ├── src/ │ ├── assets/ │ │ └── react.svg │ ├── components/ │ │ ├── MostFeedbackSection.tsx │ │ ├── RecentFeedbackSection.tsx │ │ ├── ReviewSection.tsx │ │ └── WebsiteDetails.tsx │ ├── provider/ │ │ └── informationProvider.tsx │ ├── utils/ │ │ └── time.ts │ ├── App.css │ ├── App.tsx │ ├── index.css │ ├── main.tsx │ └── vite-env.d.ts ├── .gitignore ├── eslint.config.js ├── index.html ├── package.json ├── pnpm-lock.yaml ├── postcss.config.js ├── tailwind.config.js ├── tsconfig.app.json ├── tsconfig.json ├── tsconfig.node.json └── vite.config.ts
+![ProjectStructure](https://github.com/user-attachments/assets/8f7a8038-eb6e-4228-90d8-bc3916b43abb)
+
 
 
 ## Prerequisites
