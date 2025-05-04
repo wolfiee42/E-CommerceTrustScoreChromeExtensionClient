@@ -44,6 +44,15 @@ This repository contains the client-side code for the E-Commerce Trust Score Chr
 - `pnpm build`: Build the project for production.
 - `pnpm lint`: Run ESLint to check for code quality issues.
 
+## Backend URL
+
+The client communicates with the backend server for data processing and trust score calculations. The backend URL is:
+
+```
+https://github.com/wolfiee42/E-CommerceTrustScoreChromeExtensionServer.git
+```
+
+
 ## Technologies Used
 - **React**: Frontend library for building user interfaces.
 - **TypeScript**: Strongly typed programming language for JavaScript.
